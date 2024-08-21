@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "drl-for-trading"
+version = "0.1.0"
+description = ""
+authors = ["hy"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+numpy = "^2.1.0"
+scipy = "^1.14.1"
+alpaca-trade-api = "^3.2.0"
+python-dotenv = "^1.0.1"
+ipykernel = "^6.29.5"
+alpaca-py = "^0.28.3"
+gymnasium = "^0.29.1"
+gym-anytrading = "^2.0.0"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
